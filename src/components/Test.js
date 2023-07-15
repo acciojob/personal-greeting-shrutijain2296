@@ -6,7 +6,7 @@ const Test = () =>{
 
     return(
         <div>
-            <input type = "text" onChange = {(event) => setUser(event.target.value)}/>
+            <input type = "text" onChange = {(event) => setUser(event.target.value)} />
 
             {
                 user.length > 0 && <h2>Hello {user}</h2>
