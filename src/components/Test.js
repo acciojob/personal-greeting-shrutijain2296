@@ -6,6 +6,7 @@ const Test = () =>{
 
     return(
         <div>
+            <label>Enter your name:</label><br />
             <input type = "text" onChange = {(event) => setUser(event.target.value)} />
 
             {
