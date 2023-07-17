@@ -12,7 +12,7 @@ const Test = () =>{
         <div>
             <label>Enter your name:</label><br />
             <input type = "text" onChange = {handleChange} />
-            <p>{"Hello" + user + "!"}</p>
+            <p>{"Hello " + user + "!"}</p>
             
         </div>
     )
