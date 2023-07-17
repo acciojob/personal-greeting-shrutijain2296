@@ -9,7 +9,7 @@ const Test = () =>{
             <input type = "text" onChange = {(event) => setUser(event.target.value)} />
 
             {
-                user.length > 0 && <h2>Hello {user}</h2>
+                user.length > 0 && <p>Hello {user}</p>
             }
             
         </div>
